@@ -1,0 +1,42 @@
+import kotlin.math.abs
+
+class Car(
+    var model: String,
+    var color: String,
+    var brand: String,
+    var price: String,
+    var speed: String
+){
+
+    fun Model(){
+        println("Your model is: $model")
+    }
+    fun color(){
+        println("Your color is: $color")
+    }
+    fun brand(){
+        println("Your brand is: $brand")
+    }
+    fun price(){
+        println("Your price is: $price")
+    }
+    fun speed(){
+        println("Your speed is: $speed")
+    }
+}
+
+fun car(){
+    var car1 = Car("201ms","Green","BMW","200000k","250km/h")
+    var car2 = Car("s270m", "Red","ferari","2000000k","300m/h")
+
+    car1.Model()
+    car2.Model()
+    println("*****************")
+    car1.brand()
+    car2.brand()
+
+}
+
+fun main(){
+    car()
+}
