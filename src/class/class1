@@ -1,0 +1,37 @@
+class Car_model{
+    var brand:String = ""
+    var model:String = ""
+    var color:String = ""
+    var speed:String = ""
+    var price:Int = 0
+
+}
+
+fun car1(){
+    val car = Car_model()
+    car.brand = "BMW"
+    car.model = "MW"
+    car.color = "Blue"
+    car.speed = "250km/h"
+    car.price = 200000
+
+    var price = car.price
+    var speed = car.speed
+    var color = car.color
+    var model = car.model
+    var brand = car.brand
+
+    println("Your brand is: $brand ")
+    println("Your model is: $model")
+    println("Your color is: $color")
+    println("your price is: $price")
+    println("Your price is: $speed")
+}
+
+
+
+
+
+fun main(){
+    car1()
+}
